@@ -6,8 +6,7 @@ const calcSlice = createSlice({
     initialState:{
         result:0,
         numberOne:'',
-        numberTwo:'',
-        message: ''
+        numberTwo:''
     },
     reducers: {
         increment: (state, action) => {
